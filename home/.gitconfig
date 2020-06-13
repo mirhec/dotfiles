@@ -1,6 +1,6 @@
 [user]
-	name = Manu Miu
-	email = miu.manu@gmx.de
+	name = Mirko Hecky
+	email = m.hecky@posteo.de
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f

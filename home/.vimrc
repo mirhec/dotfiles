@@ -67,7 +67,10 @@ Bundle 'IndexedSearch'
 Bundle 'matchit.zip'
 " Yank history navigation
 Bundle 'YankRing.vim'
-
+" Rust plugin
+Plugin 'rust-lang/rust.vim'
+" Syntastic plugin
+Plugin 'vim-syntastic/syntastic'
 
 " ============================================================================
 " Install plugins the first time vim runs

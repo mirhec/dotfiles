@@ -9,3 +9,5 @@ case "$-" in
     *i*) fish -il; exit ;;
     *)  ;;
 esac
+
+export PATH="$HOME/.cargo/bin:$PATH"
