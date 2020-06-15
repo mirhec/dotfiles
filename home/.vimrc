@@ -97,6 +97,9 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+" Word wrapping
+set tw=60
+
 " always show status bar
 set ls=2
 
@@ -394,3 +397,7 @@ no <expr> T Multift(-2,getchar(),-2)
 no <expr> t Multift(2,getchar(),2)
 no <expr> ; Multift(pvft,pvftc,pvft)
 " no <expr> , Multift(-pvft,pvftc,pvft)
+
+" Remap key for CtrlP
+let g:ctrlp_map = '<C-p>'
+let g:ctrlp_cmd = 'CtrlP'
