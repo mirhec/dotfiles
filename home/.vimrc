@@ -71,6 +71,8 @@ Bundle 'YankRing.vim'
 Plugin 'rust-lang/rust.vim'
 " Syntastic plugin
 Plugin 'vim-syntastic/syntastic'
+" Auto save plugin
+Plugin '907th/vim-auto-save'
 
 " ============================================================================
 " Install plugins the first time vim runs
@@ -401,3 +403,8 @@ no <expr> ; Multift(pvft,pvftc,pvft)
 " Remap key for CtrlP
 let g:ctrlp_map = '<C-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" Configure Auto Save
+let g:auto_save = 1
+let g:auto_save_events = ["InsertLeave", "TextChanged", "CursorHoldI"]
+let g:updatetime = 1000
