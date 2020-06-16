@@ -13,4 +13,4 @@
 [credential]
 	helper = store
 [core]
-	autocrlf = true
+	autocrlf = input
