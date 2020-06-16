@@ -99,3 +99,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias homeshick="$HOME/.homesick/repos/homeshick/bin/homeshick"
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
+
+[ -f ~/.bashrc ] && source ~/.bashrc
