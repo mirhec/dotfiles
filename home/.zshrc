@@ -98,6 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias homeshick="$HOME/.homesick/repos/homeshick/bin/homeshick"
+alias k=kubectl
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
 
 [ -f ~/.bashrc ] && source ~/.bashrc
